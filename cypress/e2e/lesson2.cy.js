@@ -9,6 +9,7 @@ describe("Lesson 2", () => {
     cy.get('[title="Download on the App Store"]')
     cy.get("[alt=App-Store-Icon]")
     cy.get(".TK-Footer-List").first().children()
+    //cy.get
 
   })
 })
