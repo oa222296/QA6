@@ -3,7 +3,7 @@ describe("title example:check log in",()=>{
     it("validate the the user can login successfuly with valid email and pass",()=>{
         cy.visit("/")
         cy.get("#user-name").type("standard_user")
-        cy.get("#password").type("secret_sauce")
+        cy.get("#password").type("secret_sauce{enter}")
        // cy.get("[name=login-button]").click()
         cy.contains("Login").click()
        //y.contains("h4","user")
